@@ -1,0 +1,54 @@
+{
+  "name": "ink-graph",
+  "version": "0.1.0",
+  "description": "Animated force-directed network graph component for Ink (p2p-graph for the terminal)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "node examples/demo.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "ink",
+    "ink-component",
+    "react",
+    "cli",
+    "terminal",
+    "graph",
+    "network",
+    "p2p",
+    "force-directed",
+    "braille",
+    "chart"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "ink": ">=6",
+    "react": ">=19"
+  },
+  "dependencies": {
+    "d3-force": "^3.0.1"
+  },
+  "devDependencies": {
+    "ink": "^8.0.0",
+    "ink-testing-library": "^4.0.0",
+    "react": "^19.3.1",
+    "vitest": "^5.1.1"
+  },
+  "author": "roccomuso",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/ink-graph.git"
+  }
+}
